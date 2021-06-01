@@ -1,0 +1,9 @@
+# stackhawk configuration for vuln_node_express
+app:
+  # An applicationId obtained from the StackHawk platform.
+  applicationId:  # (required)
+  # The environment for the applicationId defined in the StackHawk platform.
+  env: Pre-Production # (required)
+  # The url of your application to scan
+  host: http://localhost:3000/ # (required)
+  # The names of your session tokens aka: cookie names
